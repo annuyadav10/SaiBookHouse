@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.VerifyOTP">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcometxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Welcome"
+        android:textColor="@color/textcolor2"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/logintitle"
+        android:textColor="@color/textcolor6"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/welcometxt" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginHorizontal="15dp"
+        android:paddingBottom="10dp">
+        <TextView
+            android:id="@+id/titletxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verify Mobile Number"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/titletxt"
+            android:textSize="12dp"
+            android:text="@string/otpmessage2"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/textcolor3"/>
+
+
+            <EditText
+                android:id="@+id/enterMobNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/message"
+                android:background="@drawable/background"
+                android:layout_marginTop="15dp"
+                android:padding="10dp"
+                android:hint="Enter Phone Number"
+                android:inputType="number"
+                android:maxLength="10"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/enterMobNo"
+            android:background="@drawable/background"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/cnfrmpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/password"
+            android:background="@drawable/background"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/showpass"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintRight_toRightOf="@id/cnfrmpass"
+            app:layout_constraintTop_toTopOf="@id/cnfrmpass"
+            app:layout_constraintBottom_toBottomOf="@id/cnfrmpass"
+            android:src="@drawable/showpassicon"
+            android:layout_marginRight="8dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/verifyOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/loginbutton"
+            android:gravity="center"
+            android:padding="13dp"
+            android:text="GET OTP"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/cnfrmpass"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:visibility="visible"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

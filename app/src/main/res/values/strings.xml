@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SaiBookHouse</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="logintitle">Your School Books Now Available Online</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="logtxt">Don\'t have an account? </string>
+    <string name="otpmessage">A text with One Time Password(OTP) has been sent to your registered mobile number,which will expire in next 5 minutes </string>
+    <string name="otpmessage2">A text with One Time Password(OTP) has been sent to your Phone Number,which will expire in next 5 minute</string>
+    <string name="termpolicy">By signing up you accept to the Terms and Conditions,Privacy Policy.</string>
+    <string name="logtxtt">Already have an account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_page">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Profile</string>
+    <string name="title_notifications">My Cart</string>
+    <string name="title_help">Help</string>
+</resources>

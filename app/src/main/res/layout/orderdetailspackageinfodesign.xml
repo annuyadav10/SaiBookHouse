@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:stretchColumns="*"
+        android:background="@color/white">
+    <TableRow
+        android:padding="10dp"
+        android:background="@color/lightgrey1"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/itemname"
+            android:layout_width="150dp"
+            android:text="Item Name"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_column="1"
+            android:gravity="start"
+            android:textStyle="normal"
+            android:textSize="11dp" />
+        <TextView
+            android:id="@+id/unitprice"
+            android:layout_width="80dp"
+            android:text="Unit Price"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textSize="11dp"/>
+        <TextView
+            android:id="@+id/hsncode"
+            android:layout_width="80dp"
+            android:text="HSN Code"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textSize="11dp"/>
+        <TextView
+            android:id="@+id/sgt"
+            android:layout_width="80dp"
+            android:text="SGT()"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textSize="11dp"/>
+        <TextView
+            android:id="@+id/csgt"
+            android:layout_width="80dp"
+            android:text="CSGT()"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textSize="11dp"/>
+        <TextView
+            android:id="@+id/amountgst"
+            android:layout_width="150dp"
+            android:text="Amount After GST"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textSize="11dp"/>
+        <TextView
+            android:id="@+id/qnt"
+            android:layout_width="80dp"
+            android:text="Qty."
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textSize="11dp"/>
+        <TextView
+            android:id="@+id/totalamt"
+            android:layout_width="100dp"
+            android:text="Total Price"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textStyle="normal"
+            android:textSize="11dp"/>
+    </TableRow>
+
+</TableLayout>

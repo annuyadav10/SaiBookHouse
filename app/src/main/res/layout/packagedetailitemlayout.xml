@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="200dp"
+    android:padding="2dp"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:padding="5dp"
+            android:layout_marginHorizontal="20dp">
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="5dp"
+                android:padding="1dp">
+                <TextView
+                    android:id="@+id/packagename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="package name abcd"
+                    android:textStyle="bold"
+                    android:textColor="@color/orderpackagecolor"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:maxLines="3" />
+                <TextView
+                    android:id="@+id/packageprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1000"
+                    android:textStyle="bold"
+                    android:textColor="@color/textcolor3"
+                    android:textSize="14dp"
+                    android:textAlignment="viewStart"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:src="@drawable/packageimage"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_weight=".5"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:src="@drawable/forwordarrow"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/lightgrey"/>
+
+
+</LinearLayout>

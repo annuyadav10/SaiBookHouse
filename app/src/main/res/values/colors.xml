@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCFCFC</color>
+    <color name="colorPrimaryDark">#273e6a</color>
+    <color name="actionbarcolor">#0fa1fd</color>
+    <color name="textcolor">#577e97</color>
+    <color name="textcolor2">#004e7f</color>
+    <color name="textcolor6">#1f74a1</color>
+    <color name="textcolor3">#000000</color>
+    <color name="packagecolor">#547b8b</color>
+    <color name="packagecolor2">#3e2ebf</color>
+    <color name="lightgrey">#bcbcbc</color>
+    <color name="lightgrey1">#e2e2e2</color>
+    <color name="textcolor5">#1f5eea</color>//signup text color
+    <color name="dashboardtxtcolor">#688b99</color>//signup text color
+    <color name="dashboradtxtprocolor">#d9e2e5</color>//signup text color
+    <color name="hintcolor">#e6e6e6</color>
+    <color name="buttoncolor">#087cc4</color>
+    <color name="dashboardcolor">#c0e6fe</color>
+    <color name="dashboardcolor1">#f4fafe</color>
+    <color name="deactivatecolor">#d3edfe</color>
+    <color name="dashboardcolor2">#1fa7fd</color>
+    <color name="searchbarcolor">#f8f7f7</color>
+    <color name="spinnercolor">#305f72</color>
+    <color name="startcolor">#ffdd00</color>
+    <color name="addcartcolor">#ff7400</color>
+    <color name="buynowcolor">#ff9f00</color>
+    <color name="productnamecolor">#2e5e71</color>
+    <color name="greencolor">#508409</color>
+    <color name="greencolor1">#82ce34</color>
+    <color name="redcolor">#ff6a6a</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="pricecolor">#9ab1ba</color>
+    <color name="orderstatuscolor">#0aa6c3</color>
+    <color name="orderdatecolor">#807b7b</color>
+    <color name="orderpackagecolor">#638795</color>
+    <color name="orderdispatchedcolor">#f87708</color>
+    <color name="orderdelivered">#5b8c19</color>
+    <color name="ordercancel">#ff1414</color>
+    <color name="black1">#707070</color>
+
+</resources>
